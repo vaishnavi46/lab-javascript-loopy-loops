@@ -114,28 +114,17 @@ function find_upper_lower(a)
  str2=(ProGrad_2);
  if(str1==str2)
  {
-     console.log(str1);
+     console.log("Both has same name");
  }
  if(str1<str2)
  {
      console.log(str2);
  }
-    //  if(x.length==y.length)
-    //  {
-    //      console.log(x+y);
-    //  }
-    //  else if(x<y)
-    //  {
-    //      return 1
-    //  }
-    //  else
-    //  {
-    //      return -1;
-    //  }
-    //  console.log(strcmp(ProGrad_1,ProGrad_2));
-    //  console.log(strcmp(ProGrad_1,ProGrad_2));
-
- 
+ else
+ {
+    console.log(str1);
+ }
+    
 // Bonus Time!
 // Bonus 1:
 // Go to lorem ipsum generator and:
